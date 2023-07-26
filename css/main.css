@@ -110,7 +110,10 @@ h1, h2, h3, h4, p {
 
 .content p {
     margin: 30px;
-    text-indent: 2em;
+}
+
+.right-nudge p {
+	text-indent: 2em;
 }
 
 .content-top {
