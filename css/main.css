@@ -112,8 +112,40 @@ h1, h2, h3, h4, p {
     margin: 30px;
 }
 
+.fixed-height-content {
+	overflow: hidden;
+    position: relative;
+    margin: 40px 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 300px;
+
+    width: 750px;
+	height: 220px;
+
+    border-radius: 30px;
+    border: solid 4px #c72f4a;
+    box-shadow: #e04662 0px 0px 20px 0px;
+
+    background-color: #3b3b3bb2;
+    backdrop-filter: blur(3px);
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fixed-height-content p {
+    margin: 30px;
+}
+
 .right-nudge p {
 	text-indent: 2em;
+	width: 400px;
+	transform: translateX(130px);
 }
 
 .content-top {
@@ -134,7 +166,7 @@ h1, h2, h3, h4, p {
 }
 
 .proto {
-    height: 300px;
+    height: 400px;
     
     position: absolute;
     bottom: 0;
